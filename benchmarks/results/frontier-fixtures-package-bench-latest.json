@@ -1,0 +1,50 @@
+{
+  "package": "@shapeshift-labs/frontier-fixtures",
+  "version": "0.1.0",
+  "generatedAt": "2026-06-02T04:29:54.487Z",
+  "node": "v26.1.0",
+  "platform": "darwin arm64",
+  "rounds": 5,
+  "rows": [
+    {
+      "fixture": "Generate schema value",
+      "medianUs": 1.8,
+      "p95Us": 2.05
+    },
+    {
+      "fixture": "Generate related fixture state",
+      "medianUs": 639.34,
+      "p95Us": 660.23
+    },
+    {
+      "fixture": "Compile scenario to patches",
+      "medianUs": 4344.14,
+      "p95Us": 4351.88
+    },
+    {
+      "fixture": "Verify scenario replay",
+      "medianUs": 563,
+      "p95Us": 573.86
+    },
+    {
+      "fixture": "Create patch stream",
+      "medianUs": 1181.43,
+      "p95Us": 1185.9
+    },
+    {
+      "fixture": "Stable fixture hash",
+      "medianUs": 251.51,
+      "p95Us": 257.1
+    },
+    {
+      "fixture": "Encode JSONL evidence",
+      "medianUs": 3.22,
+      "p95Us": 3.32
+    },
+    {
+      "fixture": "Decode JSONL evidence",
+      "medianUs": 3.78,
+      "p95Us": 3.96
+    }
+  ]
+}
